@@ -1,0 +1,13 @@
+Comparison,Metric,n_A,n_B,Mean_A,Mean_B,SD_A,SD_B,Test,Statistic,P_value,Significant
+Sharp_Kernel vs Smooth_Kernel,Dice,10,47,0.4179,0.3603,0.3140,0.3300,Mann-Whitney U,251.5000,0.733031,No
+Sharp_Kernel vs Thick_Slice,Dice,10,4,0.4179,0.2881,0.3140,0.3565,Welch's t-test,0.5618,0.600235,No
+Sharp_Kernel vs Thin_Slice,Dice,10,34,0.4179,0.1776,0.3140,0.2577,Mann-Whitney U,241.5000,0.033549,Yes
+Smooth_Kernel vs Thick_Slice,Dice,47,4,0.3603,0.2881,0.3300,0.3565,Mann-Whitney U,106.0000,0.681395,No
+Smooth_Kernel vs Thin_Slice,Dice,47,34,0.3603,0.1776,0.3300,0.2577,Mann-Whitney U,1058.5000,0.010009,Yes
+Thick_Slice vs Thin_Slice,Dice,4,34,0.2881,0.1776,0.3565,0.2577,Mann-Whitney U,78.0000,0.620215,No
+Sharp_Kernel vs Smooth_Kernel,HD95,9,44,100.0164,108.2077,71.3067,56.5435,Welch's t-test,-0.3074,0.764853,No
+Sharp_Kernel vs Thick_Slice,HD95,9,4,100.0164,112.7040,71.3067,70.5550,Welch's t-test,-0.2648,0.800874,No
+Sharp_Kernel vs Thin_Slice,HD95,9,32,100.0164,138.9500,71.3067,53.5211,Mann-Whitney U,101.5000,0.184263,No
+Smooth_Kernel vs Thick_Slice,HD95,44,4,108.2077,112.7040,56.5435,70.5550,Welch's t-test,-0.1080,0.920287,No
+Smooth_Kernel vs Thin_Slice,HD95,44,32,108.2077,138.9500,56.5435,53.5211,Mann-Whitney U,475.5000,0.016243,Yes
+Thick_Slice vs Thin_Slice,HD95,4,32,112.7040,138.9500,70.5550,53.5211,Mann-Whitney U,48.5000,0.447754,No
