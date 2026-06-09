@@ -1,0 +1,28 @@
+# Medical AI Robustness - Project Dependencies
+# Python 3.9+, Windows/Linux
+
+# --- Core Deep Learning ---
+torch>=2.6.0
+nnunetv2>=2.5.2
+
+# --- Data Processing ---
+nibabel>=5.0
+pydicom>=2.4
+numpy>=1.24
+
+# --- LIDC Annotations (optional, for label generation) ---
+pylidc>=0.2.8
+
+# --- Evaluation Metrics ---
+medpy>=0.5
+scipy>=1.10
+
+# --- Visualization ---
+seaborn>=0.12
+matplotlib>=3.7
+
+# --- CLI Utilities ---
+tqdm>=4.65
+
+# --- CUDA (install separately based on hardware) ---
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
